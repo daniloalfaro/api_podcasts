@@ -7,7 +7,7 @@ class Podcast < ApplicationRecord
 
   include PgSearch
   pg_search_scope :search_by_term, against: %i[artist_name name kind
-                                               copyright artistUrl url],
+                                               copyright artist_url url],
                                    using: {
                                      tsearch: {
                                        any_word: true,
