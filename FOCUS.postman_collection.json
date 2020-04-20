@@ -1,0 +1,195 @@
+{
+	"info": {
+		"_postman_id": "b46cc6fe-60b5-4aa3-a346-fe0ab04afc22",
+		"name": "FOCUS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Podcast Search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/podcasts/search?query=york",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"podcasts",
+						"search"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "york"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Podcast 20 Top",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/podcasts/top20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"podcasts",
+						"top20"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Podcast List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/podcasts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"podcasts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Podcast Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/podcasts/1502728938",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"podcasts",
+						"1502728938"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Podcast 20 Last",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/podcasts/last20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"podcasts",
+						"last20"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Genre Search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/genres/search?query=tech",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"genres",
+						"search"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "tech"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Genres List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/genres",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"genres"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Genres Podcasts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/genres",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"genres"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
