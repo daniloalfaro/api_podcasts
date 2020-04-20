@@ -5,7 +5,7 @@ class Podcast < ApplicationRecord
 
   validates :itunes_id, uniqueness: true
 
-  include PgSearch
+  include PgSearch::Model
   pg_search_scope :search_by_term, against: %i[artist_name name kind
                                                copyright artist_url url],
                                    using: {
