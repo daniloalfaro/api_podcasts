@@ -10,11 +10,11 @@ module Api
 
       def index
         @genres = Genre.all
-        render json: @genres
+        render json: @genres, each_serializer: ListGenreSerializer
       end
 
       def podcasts
-        @genres_podcasts = Genre.all 
+        @genres_podcasts = Genre.all
         render json: @genres_podcasts
       end
     end
