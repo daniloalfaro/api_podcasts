@@ -19,12 +19,19 @@ INSTRUCTIONS:
 9. The API endponints are:
 
 http://localhost:3000/api/v1/podcasts/search  Search by: artist_name, name, kind, copyright, artist_url, url
+
 http://localhost:3000/api/v1/podcasts/top20   First 20 podcasts
+
 http://localhost:3000/api/v1/podcasts/last20  Last 20 podcasts
+
 http://localhost:3000/api/v1/podcasts         List of all podcasts
+
 http://localhost:3000/api/v1/podcasts/:id     Delete a podcasts by itunes_id, you can find some in the list of all podcasts
+
 http://localhost:3000/api/v1/genres/search    Search by: name
+
 http://localhost:3000/api/v1/genres/podcasts  List of all podcasts grouped by genre
+
 http://localhost:3000/api/v1/genres           List of all genres
 
 
